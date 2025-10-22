@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Esquemáticos - Proyecto Zumobot.PrjPcb]
+   Generated File[PCB_Control.TXT]
+   Generated File[PCB_Control.LDP]
+   Generated File[PCB_Control.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 00:32:43 On 13/10/2025

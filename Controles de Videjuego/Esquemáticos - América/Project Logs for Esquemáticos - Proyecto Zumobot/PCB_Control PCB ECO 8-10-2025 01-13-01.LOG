@@ -1,0 +1,49 @@
+Removed Pin From Net: NetName=NetC?_1 Pin=C?-1
+Removed Pin From Net: NetName=NetC?_1 Pin=S?-1
+Added Component: Designator=U1(ESP32)
+Add component (AddParameter): Name = "Category"; Value = "RF Semiconductors and Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://www.espressif.com/sites/default/files/documentation/espressif_products_ordering_information_en.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.espressif.com/sites/default/files/documentation/espressif_products_ordering_information_en.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.octopart.com/ESP32-S2-SAOLA-1R-Espressif-Systems-datasheet-154571409.pdf?src-supplier=Jameco"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.octopart.com/ESP32-S2-SAOLA-1R-Espressif-Systems-datasheet-154571409.pdf?src-supplier=Jameco"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.octopart.com/ESP32-S2-SAOLA-1R-Espressif-Systems-datasheet-165560559.pdf?src-supplier=TME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.octopart.com/ESP32-S2-SAOLA-1R-Espressif-Systems-datasheet-165560559.pdf?src-supplier=TME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "2.4GHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ESP32-S2-SAOLA-1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing"; Value = "588=8.03772 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "ESP32"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "1965-ESP32-S2-SAOLA-1R-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=S?-1
+Added Pin To Net: NetName=VIN Pin=U1-19
+Added Pin To Net: NetName=NetC?_1 Pin=U1-33
+Added Pin To Net: NetName=GND Pin=U1-38
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_1" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component C? Cap2
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component C? Cap2
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component C? Cap2
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component C? Cap2
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component C? Cap2
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component R? Res1
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component R? Res1
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component R? Res1
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component R? Res1
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component R? Res1
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component S? SW-PB
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component S? SW-PB
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component S? SW-PB
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component S? SW-PB
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component S? SW-PB
+Added Member To Class: ClassName=[03] - SCHEMATIC Member=Component U1 ESP32

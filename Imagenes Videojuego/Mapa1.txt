@@ -1,0 +1,177 @@
+	LCD_Bitmap(144, 208, 32, 16, casita_gris);
+	LCD_Bitmap(168, 224, 8, 8, bloqueladrillo_8_8);
+	LCD_Bitmap(168, 232, 8, 8, bloqueladrillo_8_8);
+	LCD_Bitmap(144, 232, 8, 8, bloqueladrillo_8_8);
+	LCD_Bitmap(144, 224, 8, 8, bloqueladrillo_8_8);
+	LCD_Bitmap(152, 232, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(152, 216, 16, 16, aguila);
+
+	LCD_Bitmap(144, 16, 32, 16, casitagris_invertida);
+	LCD_Bitmap(168, 8, 8, 8, bloqueladrillo_8_8);
+	LCD_Bitmap(168, 0, 8, 8, bloqueladrillo_8_8);
+	LCD_Bitmap(144, 8, 8, 8, bloqueladrillo_8_8);
+	LCD_Bitmap(144, 0, 8, 8, bloqueladrillo_8_8);
+	LCD_Bitmap(152, 0, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(152, 8, 16, 16, aguila);
+
+
+
+
+	for (int y = 175; y < 216; y++) {
+		LCD_Bitmap(32, y, 16, 8, bloqueladrillo_16_8);
+		y += 7;
+	}
+
+	for (int y = 192; y < 232; y++) {
+		LCD_Bitmap(48, y, 16, 8, bloqueladrillo_16_8);
+		y += 7;
+	}
+
+	for (int y = 192; y < 232; y++) {
+		LCD_Bitmap(48, y, 16, 8, bloqueladrillo_16_8);
+		y += 7;
+	}
+
+	for (int y = 176; y < 240; y++) {
+		LCD_Bitmap(304, y, 16, 16, monte);
+		y += 15;
+	}
+
+	for (int y = 208; y < 240; y++) {
+		LCD_Bitmap(288, y, 16, 16, monte);
+		y += 15;
+	}
+
+	for (int x = 256; x < 288; x++) {
+		LCD_Bitmap(x, 208, 16, 16, monte);
+		x += 15;
+	}
+
+	for (int x = 240; x < 304; x++) {
+		LCD_Bitmap(x, 192, 16, 8, bloqueladrillo_16_8);
+		LCD_Bitmap(x, 200, 16, 8, bloqueladrillo_16_8);
+		x += 15;
+	}
+	LCD_Bitmap(64, 224, 16, 8, bloqueladrillo_16_8);
+
+	for (int y = 56; y < 184; y++) {
+		LCD_Bitmap(120, y, 16, 8, bloqueladrillo_16_8);
+		y += 7;
+	}
+
+	for (int y = 56; y < 184; y++) {
+		LCD_Bitmap(184, y, 16, 8, bloqueladrillo_16_8);
+		y += 7;
+	}
+
+	for (int y = 88; y < 136; y++) {
+		LCD_Bitmap(136, y, 16, 16, monte);
+		y += 15;
+	}
+
+	for (int y = 88; y < 136; y++) {
+		LCD_Bitmap(168, y, 16, 16, monte);
+		y += 15;
+	}
+
+	for (int y = 104; y < 152; y++) {
+		LCD_Bitmap(152, y, 16, 16, monte);
+		y += 15;
+	}
+
+	LCD_Bitmap(136, 184, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(168, 184, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(136, 48, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(168, 48, 16, 8, bloqueladrillo_16_8);
+
+	LCD_Bitmap(152, 104, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(152, 96, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(152, 88, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(152, 80, 16, 8, bloquegris_16_8);
+	LCD_Bitmap(152, 72, 16, 8, bloquegris_16_8);
+
+	for (int y = 104; y < 132; y++) {
+		LCD_Bitmap(0, y, 16, 8, bloquegris_16_8);
+		y += 7;
+	}
+
+	for (int y = 104; y < 132; y++) {
+		LCD_Bitmap(304, y, 16, 8, bloquegris_16_8);
+		y += 7;
+	}
+
+	for (int x = 16; x < 64; x++) {
+		LCD_Bitmap(x, 128, 16, 8, bloquegris_16_8);
+		x += 15;
+	}
+
+	for (int x = 256; x < 304; x++) {
+		LCD_Bitmap(x, 128, 16, 8, bloquegris_16_8);
+		x += 15;
+	}
+
+	for (int x = 16; x < 96; x++) {
+		LCD_Bitmap(x, 112, 16, 8, bloqueladrillo_16_8);
+		LCD_Bitmap(x, 120, 16, 8, bloqueladrillo_16_8);
+
+		x += 15;
+	}
+
+
+	for (int x = 0; x < 80; x++) {
+		LCD_Bitmap(x, 72, 16, 8, bloqueladrillo_16_8);
+		LCD_Bitmap(x, 80, 16, 8, bloqueladrillo_16_8);
+		x += 15;
+	}
+
+	for (int x = 224; x < 304; x++) {
+		LCD_Bitmap(x, 112, 16, 8, bloqueladrillo_16_8);
+		LCD_Bitmap(x, 120, 16, 8, bloqueladrillo_16_8);
+		x += 15;
+	}
+
+	for (int x = 240; x < 320; x++) {
+		LCD_Bitmap(x, 72, 16, 8, bloqueladrillo_16_8);
+		LCD_Bitmap(x, 80, 16, 8, bloqueladrillo_16_8);
+		x += 15;
+	}
+
+	for (int y = 168; y < 216; y++) {
+		LCD_Bitmap(0, y, 8, 8, bloquegris_8_8);
+		y += 7;
+	}
+
+	for (int y = 0; y < 48; y++) {
+		LCD_Bitmap(32, y, 16, 8, bloqueladrillo_16_8);
+		y += 7;
+	}
+
+	for (int y = 0; y < 24; y++) {
+		LCD_Bitmap(48, y,8, 8, bloquegris_8_8);
+		y += 7;
+	}
+
+	for (int y = 0; y < 48; y++) {
+		LCD_Bitmap(80, y,16, 16, monte);
+		y += 15;
+	}
+
+	for (int x = 272; x < 320; x++) {
+		LCD_Bitmap(x, 0, 16, 16, monte);
+		x += 15;
+	}
+	LCD_Bitmap(304, 16, 16, 16, monte);
+	LCD_Bitmap(304, 32, 16, 16, monte);
+	LCD_Bitmap(288, 16, 16, 8, bloqueladrillo_16_8);
+	LCD_Bitmap(288, 24, 16, 8, bloqueladrillo_16_8);
+
+	LCD_Bitmap(100, 200, 16, 8, bloquegris_16_8);
+	LCD_Bitmap(100, 208, 16, 8, bloquegris_16_8);
+
+	for (int x = 210; x < 242; x++) {
+		LCD_Bitmap(x, 27, 16, 8, bloqueladrillo_16_8);
+		LCD_Bitmap(x, 19, 16, 8, bloqueladrillo_16_8);
+		x += 15;
+	}
+	LCD_Bitmap(210, 35, 16, 8, bloquegris_16_8);
+	LCD_Bitmap(210, 43, 16, 8, bloquegris_16_8);
